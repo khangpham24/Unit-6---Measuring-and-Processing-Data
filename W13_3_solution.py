@@ -6,7 +6,7 @@ biggestNumber:float
 biggest_value:int
 smallest_number:float
 smallest_value:int
-with open('temperature_partial.csv') as csv_file:
+with open('pressure_full.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     for row in csv_reader:
